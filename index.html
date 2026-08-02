@@ -330,7 +330,7 @@
                         <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
                     </svg>
                 </a>
-                <a href="https://drive.google.com/file/d/1a-CtUuPinXXU_IzI8PE49Zg4A2p80yEb/view?usp=sharing" target="_blank" title="Resume">
+                <a href="https://drive.google.com/file/d/1-oR51vSsKEecsoMz0XZuHnluqaxdc6JJ/view?usp=sharing" target="_blank" title="Resume">
                     <svg viewBox="0 0 24 24" fill="currentColor">
                         <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
                     </svg>
@@ -389,6 +389,20 @@
             <p class="projects-note">Some projects are in private repos. Drop me an access request - happy to discuss and share access.</p>
             
             <div class="project-row">
+                <div class="project-thumb" style="background: #111827; display: flex; align-items: center; justify-content: center;">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="#d1d5db"><path d="M3 4h18v12H3V4zm2 2v8h14V6H5zm7 11 3-3h-6l3 3z"/></svg>
+                </div>
+                <p class="project-desc"><strong>Digest (Gatekeeper)</strong> - Personalized AI audio news briefing. Built an agentic GenAI pipeline (Flask + APScheduler) scraping 15+ sources across 5 categories, generating narrated daily digests via a two-pass Llama-3.3-70B workflow with ~87% noise reduction and continuity-aware deduplication. Deployed on Railway with Supabase Postgres, edge-tts, and Brevo email delivery. <a href="https://github.com/Harsh50116/gatekeeper" target="_blank">GitHub</a></p>
+            </div>
+
+            <div class="project-row">
+                <div class="project-thumb" style="background: #0f766e; display: flex; align-items: center; justify-content: center;">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="#ccfbf1"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg>
+                </div>
+                <p class="project-desc"><strong>DAC</strong> - Ad creative performance analytics dashboard. Built a Streamlit decision-support tool analyzing creative component performance across ROAS, CTR, and CPP, ranking each lever by measured KPI effect. Uses Welch's t-test evidence tiers (p &lt; 0.05, n ≥ 150) and an LLM explain layer (Llama-3.3-70B) that answers strictly from computed analytics. <a href="https://github.com/Harsh50116/dac" target="_blank">GitHub</a></p>
+            </div>
+
+            <div class="project-row">
                 <div class="project-thumb" style="background: #1a1a1a; display: flex; align-items: center; justify-content: center;">
                     <svg width="40" height="40" viewBox="0 0 24 24" fill="#888"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
                 </div>
@@ -421,13 +435,6 @@
                     <svg width="40" height="40" viewBox="0 0 24 24" fill="#c7d2fe"><path d="M12 2 2 7l10 5 10-5-10-5zm0 7.2L4.5 7 12 3.8 19.5 7 12 9.2zM4 11l8 4 8-4v6l-8 4-8-4v-6z"/></svg>
                 </div>
                 <p class="project-desc"><strong>C-SSRS Risk Classification</strong> - Evaluated synthetic data augmentation methods for suicide risk classification on a 500-post Reddit dataset. Compared Llama 3.3 70B few-shot, MarianMT back-translation, and NLPAug contextual replacement. <a href="https://github.com/phan228/evaluation-model" target="_blank">GitHub</a></p>
-            </div>
-
-            <div class="project-row">
-                <div class="project-thumb" style="background: #111827; display: flex; align-items: center; justify-content: center;">
-                    <svg width="40" height="40" viewBox="0 0 24 24" fill="#d1d5db"><path d="M3 4h18v12H3V4zm2 2v8h14V6H5zm7 11 3-3h-6l3 3z"/></svg>
-                </div>
-                <p class="project-desc"><strong>Gatekeeper</strong> - Your morning briefing, in three minutes. Pick the fields you follow and get an audio digest of what happened and what is ahead, sent before breakfast. <a href="https://github.com/Harsh50116/gatekeeper" target="_blank">GitHub</a></p>
             </div>
 
             <div class="project-row">
